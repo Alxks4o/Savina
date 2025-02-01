@@ -449,7 +449,7 @@ const Photography = () => {
         </Container>
         
         
-        <Container style={{marginTop:'4rem'}}>
+        <Container style={{marginTop:'4rem', marginBottom:'15rem'}}>
             <Row xs={1} sm={2} md={3} lg={4} xl={4} style={{ width: '100%' }}>
                 <Col>
                   <img

@@ -6,9 +6,9 @@ const Footer = () => {
         <p>&copy; 2025 S.Y Media. All Rights Reserved.</p>
         <p>Follow me on  
             <br />
-            <a href="#">Instagram</a>, 
-            <a href="#">  LinkedIn</a>, 
-            <a href="#">  Facebook</a>.
+            <a target='_blank' href="https://www.instagram.com/savina.y.media/#">Instagram</a>, 
+            <a target='_blank' href="https://uk.linkedin.com/in/savina-y">  LinkedIn</a>, 
+            <a target='_blank' href="https://vimeo.com/user210739517">  Vimeo</a>.
         </p>
     </footer>
   )

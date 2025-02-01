@@ -61,7 +61,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Makes sure items are stacked vertically */
   min-height: 100vh;  /* Ensure full viewport height */
   padding-top: 2rem;  /* Space at the top */
 }
@@ -87,12 +86,12 @@
   display: flex;
   justify-content: center; 
   align-items: center;     
-  flex-grow: 1;           
+  flex-grow: 1;     
+  width: 60rem;
 }
 
 /* Card styling */
 .about-card {
-  max-width: 30vw;        
   width: 100%;           
   text-align: center;
   color: white;

@@ -10,6 +10,7 @@ import About from './routes/about';
 import Work from './routes/work';
 import MovingImage from './routes/movingImage';
 import Photography from './routes/photography';
+import Contact from './routes/contact';
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: '/photography',
     element: <Photography/>
+  },
+  {
+    path: '/contactme',
+    element: <Contact/>
   }
 ]);
 
