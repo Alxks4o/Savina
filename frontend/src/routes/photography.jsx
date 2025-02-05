@@ -102,6 +102,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -115,6 +116,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -128,6 +130,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -141,6 +144,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -168,6 +172,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -181,6 +186,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -194,6 +200,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -207,6 +214,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -220,6 +228,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -233,6 +242,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -246,6 +256,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -259,6 +270,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>
@@ -272,6 +284,7 @@ const Photography = () => {
                   objectFit: 'cover',
                   borderRadius: '1rem',
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  marginBottom: '1rem'
                 }}
               />
             </Col>

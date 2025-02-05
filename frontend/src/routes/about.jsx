@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 const About = () => {
   return (
     <>
-        <Container>
+        <Container >
             <NavbarComponent />
             <Container style={{ marginTop: '15rem', textAlign: 'center', width: '80%'}}>
                 <h1 style={{ fontSize: '4rem', color: 'white' }}>About</h1>

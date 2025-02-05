@@ -37,7 +37,7 @@ const Homepage = () => {
               <Card.Body>
                 <Card.Title style={{fontSize:'4rem'}}>Savina Yonashkova</Card.Title>
                 <Card.Text style={{fontSize:'1.2rem'}}>
-                I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
+                  I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
                 <Button variant='secondary' style={{borderRadius:'2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
               </Card.Body>
@@ -70,7 +70,7 @@ const Homepage = () => {
               <Card.Body>
                 <Card.Title style={{fontSize:'4rem'}}>Savina Yonashkova</Card.Title>
                 <Card.Text  style={{fontSize:'1.2rem'}}> 
-                I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
+                  I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
                 <Button variant='secondary' style={{borderRadius:'2rem'}} href='/about'>CLICK HERE TO ENTER</Button>
               </Card.Body>

@@ -65,6 +65,25 @@
   padding-top: 2rem;  /* Space at the top */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;  /* Stack content vertically */
+    padding-top: 1rem;  /* Adjust top padding */
+    padding-left: 1rem;  /* Add horizontal padding */
+    padding-right: 1rem;  /* Add horizontal padding */
+    min-height: 100vh;  /* Ensure full viewport height */
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    padding-top: 0.5rem;  /* Reduce top padding */
+    padding-left: 0.5rem;  /* Add horizontal padding */
+    padding-right: 0.5rem;  /* Add horizontal padding */
+  }
+}
+
 .card {
   margin-top: 2rem;  /* Adjust the card margin to be more natural */
 }
