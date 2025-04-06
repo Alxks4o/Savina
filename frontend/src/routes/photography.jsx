@@ -68,15 +68,13 @@ const Photography = () => {
     <>
     <Container>
       <NavbarComponent />
-      <Container style={{ marginTop: '15rem', textAlign: 'center', width: '80%' }}>
+      <Container style={{ marginTop: '15rem', textAlign: 'center', width: '80%'}}>
         <h1 style={{ fontSize: '4rem', color: 'white' }}>Photography</h1>
-        <p style={{ marginTop: '6rem', fontSize: '1.2rem' }}>
+        <p style={{ marginTop: '6rem', fontSize: '1.2rem'}}>
           Welcome to my photography section – a visual diary where moments freeze in time. Explore a world of images that speak louder than words, each frame telling a unique story captured through my lens. Join me in this visual journey, one snapshot at a time.
         </p>
-
-
         <Container style={{ marginTop: '6rem'}}>
-          <p style={{ fontSize: '1.4rem', fontWeight:'bold'}}>"Golden Autumn"</p>
+          <p style={{ fontSize: '1.4rem', fontWeight:'bold', borderTop:'2px solid', paddingTop:'3rem'}}>"Golden Autumn"</p>
           <Row xs={1} sm={2} md={3} lg={4} xl={5} style={{ width: '100%' }}>
             <Col>
               <img
@@ -290,16 +288,12 @@ const Photography = () => {
             </Col>
           </Row>
           <p style={{ marginTop: '3rem', fontSize: '1.2rem' }}>My "Golden Autumn" photography collection from my visit in Varna, Bulgaria this November 2024. </p>
-          <p style={{ marginTop: '1.5rem', fontSize: '1.2rem' }}>This collection portrays what you see in the colourful everyday life in Varna. Mostly being stray cats, people reading on the bus, almost naked trees from which the leaves that have fallen, transform into a golden carpet creating a path which leads to the Opera of Varna for a good end to those ideal Autumn days.</p>     
+          <p style={{ marginTop: '1.5rem', fontSize: '1.2rem', borderBottom:'2px solid', paddingBottom:'3rem'  }}>This collection portrays what you see in the colourful everyday life in Varna. Mostly being stray cats, people reading on the bus, almost naked trees from which the leaves that have fallen, transform into a golden carpet creating a path which leads to the Opera of Varna for a good end to those ideal Autumn days.</p>     
         </Container>
 
         <Container style={{marginTop:'4rem'}}>
-          <p style={{ fontSize: '1.4rem', fontWeight:'bold'}}>Autumn 2024</p>
-        </Container>
-
-
-        <Container>
-            <Row xs={1} sm={2} md={3} lg={4} xl={6} style={{ width: '100%' }}>
+          <p style={{ fontSize: '1.4rem', fontWeight:'bold' }}>Autumn 2024</p>
+            <Row xs={1} sm={2} md={3} lg={4} xl={6} style={{ width: '100%'}}>
             <Col>
               <img
                 src={photo1}
@@ -385,12 +379,12 @@ const Photography = () => {
               />
             </Col>
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem' }}>A few of my photographs from the pumpkin/autumn season.</p>
+            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom:'2px solid', paddingBottom:'3rem'  }}>A few of my photographs from the pumpkin/autumn season.</p>
         </Container>
         
 
         <Container style={{marginTop:'4rem'}}>
-          <p style={{ fontSize: '1.4rem', fontWeight:'bold'}}>London | Covent Garden 16/12/2023</p>
+          <p style={{ fontSize: '1.4rem', fontWeight:'bold' }}>London | Covent Garden 16/12/2023</p>
         </Container>
 
 
@@ -453,7 +447,7 @@ const Photography = () => {
                   />
                 </Col>
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem' }}>Practising with the Canon M50 mark II</p>
+            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom:'2px solid', paddingBottom:'3rem'  }}>Practising with the Canon M50 mark II</p>
         </Container>
 
         
@@ -731,7 +725,7 @@ const Photography = () => {
                   />
                 </Col>
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem' }}>Practising with the Canon M50 mark II</p>
+            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom:'2px solid', paddingBottom:'3rem'  }}>Practising with the Canon M50 mark II</p>
         </Container>
 
       </Container>

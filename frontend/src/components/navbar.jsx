@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../style/styles.css'; 
-import logo from '../images/logo.png';
+import logo from '../../public/logo.png';
 import instagram from '../images/link_icons/instagram.svg';
 import vimeo from '../images/link_icons/vimeo.svg';
 import linkedin from '../images/link_icons/linkedin.svg';
@@ -10,7 +10,7 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" fixed='top' className='navbar-line gradient-background'>
       <Navbar.Brand style={{ marginLeft: '45px', fontSize:'2rem', fontWeight:'bold', color: 'black'}} href="/">
-        <img src={logo} style={{ width: '130px', height: '120px' }} />
+        <img src={logo} style={{ width: '160px', height: 'auto' }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border: 'solid 2px', marginRight:'3rem'}} />
       <Navbar.Collapse id="basic-navbar-nav">
