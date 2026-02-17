@@ -10,9 +10,9 @@ import Footer from '../components/footer';
 const Homepage = () => {
   return (
     <>
-      <NavbarComponent/>
+      <NavbarComponent />
       <Carousel style={{ maxWidth: '100vw', maxHeight: '100%', margin: '0 auto' }}>
-      <Carousel.Item>
+        <Carousel.Item>
           <div style={{ position: 'relative' }}>
             <img
               className="d-block w-100"
@@ -31,15 +31,15 @@ const Homepage = () => {
                 backgroundColor: 'rgba(0, 0, 0, 0.6)', // Overlay effect
                 color: 'white',
                 padding: '20px',
-                marginTop:'2rem'
+                marginTop: '2rem'
               }}
             >
               <Card.Body>
-                <Card.Title style={{fontSize:'4rem'}}>Savina Yonashkova</Card.Title>
-                <Card.Text style={{fontSize:'1.2rem'}}>
+                <Card.Title style={{ fontSize: '4rem' }}>Savina Yonashkova</Card.Title>
+                <Card.Text style={{ fontSize: '1.2rem' }}>
                   I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
-                <Button variant='secondary' style={{borderRadius:'2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
+                <Button variant='secondary' style={{ borderRadius: '2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
               </Card.Body>
             </Card>
           </div>
@@ -63,22 +63,22 @@ const Homepage = () => {
                 backgroundColor: 'rgba(53, 52, 52, 0.6)', // Overlay effect
                 color: 'white',
                 padding: '20px',
-                marginTop:'2rem'
-                
+                marginTop: '2rem'
+
               }}
             >
               <Card.Body>
-                <Card.Title style={{fontSize:'4rem'}}>Savina Yonashkova</Card.Title>
-                <Card.Text  style={{fontSize:'1.2rem'}}> 
+                <Card.Title style={{ fontSize: '4rem' }}>Savina Yonashkova</Card.Title>
+                <Card.Text style={{ fontSize: '1.2rem' }}>
                   I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
-                <Button variant='secondary' style={{borderRadius:'2rem'}} href='/about'>CLICK HERE TO ENTER</Button>
+                <Button variant='secondary' style={{ borderRadius: '2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
               </Card.Body>
             </Card>
           </div>
         </Carousel.Item>
       </Carousel>
-      <Footer/>
+      <Footer />
     </>
   );
 };

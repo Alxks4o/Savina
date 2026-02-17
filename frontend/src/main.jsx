@@ -1,47 +1,42 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import{
+import {
   createBrowserRouter,
   RouterProvider
-}from 'react-router-dom'
+} from 'react-router-dom'
 
 import Index from './routes';
 import About from './routes/about';
 import Work from './routes/work';
 import MovingImage from './routes/movingImage';
 import Photography from './routes/photography';
-import Contact from './routes/contact';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Index/>
+    element: <Index />
   },
   {
-    path:'/about',
-    element: <About/>
+    path: '/about',
+    element: <About />
   },
   {
     path: '/work',
-    element: <Work/>
+    element: <Work />
   },
   {
     path: '/movingimage',
-    element: <MovingImage/>
+    element: <MovingImage />
   },
   {
     path: '/photography',
-    element: <Photography/>
-  },
-  {
-    path: '/contactme',
-    element: <Contact/>
+    element: <Photography />
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 )

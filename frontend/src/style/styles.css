@@ -1,39 +1,39 @@
 /* Navbar */
 .custom-nav {
-    display: flex;
-    justify-content: end;
-    gap: 15px; 
-  }
-  
-  .gradient-background {
-    background: linear-gradient(to right, #ff4eb5, #ffd7f2);      
-    min-height: 10rem;
-    border-radius: 2rem;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
-    margin: 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
 }
-  
-  
-  .custom-nav .nav-link {
-    color: #ffffff;
-    padding: 10px;
-    float: right;
-    padding-right: 16px;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
+
+.gradient-background {
+  background: linear-gradient(to right, #ff4eb5, #ffd7f2);
+  min-height: 10rem;
+  border-radius: 2rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 1rem;
+}
+
+
+.custom-nav .nav-link {
+  color: #ffffff;
+  padding: 10px;
+  float: right;
+  padding-right: 16px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .custom-nav .nav-link:hover {
-    background-color: #fa0694; 
-    color: #ffffff; 
-    border-radius: 1rem;
-    align-items: center;
+  background-color: #fa0694;
+  color: #ffffff;
+  border-radius: 1rem;
+  align-items: center;
 }
 
 
 .custom-nav .nav-link.active {
-    font-weight: bold;
-    color: #ff4eb5; 
+  font-weight: bold;
+  color: #ff4eb5;
 }
 
 
@@ -41,51 +41,69 @@
 /* Footer */
 .footer {
   width: 100%;
-  background-color: #f2f2f2;  /* Light gray background */
-  color: #333;                /* Dark text for contrast */
-  text-align: center;         /* Center-align the content */
-  padding: 20px 0;            /* Vertical padding for spacing */
-  font-size: 14px;            /* Font size for readability */
+  background-color: #f2f2f2;
+  /* Light gray background */
+  color: #333;
+  /* Dark text for contrast */
+  text-align: center;
+  /* Center-align the content */
+  padding: 20px 0;
+  /* Vertical padding for spacing */
+  font-size: 14px;
+  /* Font size for readability */
 }
 
 .footer a {
-  color: #ff69b4;  /* Soft pink color for the links */
+  color: #ff69b4;
+  /* Soft pink color for the links */
   text-decoration: none;
 }
 
 .footer a:hover {
-  text-decoration: underline;  /* Underline effect on hover */
+  text-decoration: underline;
+  /* Underline effect on hover */
 }
 
 .content-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;  /* Ensure full viewport height */
-  padding-top: 2rem;  /* Space at the top */
+  min-height: 100vh;
+  /* Ensure full viewport height */
+  padding-top: 2rem;
+  /* Space at the top */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column;  /* Stack content vertically */
-    padding-top: 1rem;  /* Adjust top padding */
-    padding-left: 1rem;  /* Add horizontal padding */
-    padding-right: 1rem;  /* Add horizontal padding */
-    min-height: 100vh;  /* Ensure full viewport height */
+    flex-direction: column;
+    /* Stack content vertically */
+    padding-top: 1rem;
+    /* Adjust top padding */
+    padding-left: 1rem;
+    /* Add horizontal padding */
+    padding-right: 1rem;
+    /* Add horizontal padding */
+    min-height: 100vh;
+    /* Ensure full viewport height */
   }
 }
 
 @media (max-width: 480px) {
   .content-container {
-    padding-top: 0.5rem;  /* Reduce top padding */
-    padding-left: 0.5rem;  /* Add horizontal padding */
-    padding-right: 0.5rem;  /* Add horizontal padding */
+    padding-top: 0.5rem;
+    /* Reduce top padding */
+    padding-left: 0.5rem;
+    /* Add horizontal padding */
+    padding-right: 0.5rem;
+    /* Add horizontal padding */
   }
 }
 
 .card {
-  margin-top: 2rem;  /* Adjust the card margin to be more natural */
+  margin-top: 2rem;
+  /* Adjust the card margin to be more natural */
 }
 
 
@@ -93,25 +111,25 @@
 /* About page container */
 .about-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center; 
-  min-height: 100vh; 
-  padding-top: 4rem;  
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 4rem;
 }
 
 /* Container for the card */
 .card-container {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
-  flex-grow: 1;     
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
   width: 60rem;
 }
 
 /* Card styling */
 .about-card {
-  width: 100%;           
+  width: 100%;
   text-align: center;
   color: white;
   border-radius: 1rem;
@@ -122,11 +140,18 @@
 
 /* Card text styling */
 .about-card .card-text {
-  line-height: 1.6;         /* Set a comfortable line height for readability */
-  margin: 0;                /* Remove default margins */
-  padding: 0;               /* Remove any extra padding */
-  text-align: justify;         /* Left-align the text (straight, no justification) */
-  font-size: 1.2rem;        /* Set a comfortable font size */
-  white-space: normal;      /* Ensure text doesn't break or wrap oddly */
-  word-wrap: break-word;    /* Allow long words to break and prevent overflow */
+  line-height: 1.6;
+  /* Set a comfortable line height for readability */
+  margin: 0;
+  /* Remove default margins */
+  padding: 0;
+  /* Remove any extra padding */
+  text-align: justify;
+  /* Left-align the text (straight, no justification) */
+  font-size: 1.2rem;
+  /* Set a comfortable font size */
+  white-space: normal;
+  /* Ensure text doesn't break or wrap oddly */
+  word-wrap: break-word;
+  /* Allow long words to break and prevent overflow */
 }
