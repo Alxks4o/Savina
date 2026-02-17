@@ -8,15 +8,13 @@ import image2 from '../images/image2.jpg'
 
 const MovingImage = () => {
   return (
-    <Container>
-
+    <>
       <NavbarComponent />
       <Container style={{ marginTop: '20rem', textAlign: 'center' }}>
         <h1>Moving Image</h1>
         <p>A dive into my creative world showcasing film edits, trailers, and documentary. From college to university, witness the progression of my projects, each being distinct to the next. Welcome to my portfolio of cinematic endeavours!</p>
       </Container>
-
-    </Container>
+    </>
   )
 }
 

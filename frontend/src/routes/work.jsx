@@ -9,45 +9,47 @@ import Footer from '../components/footer'
 const Work = () => {
     return (
         <>
+            <NavbarComponent />
             <Container>
-                <NavbarComponent />
-                <Container style={{ marginTop: '15rem', textAlign: 'center', width: '80%' }}>
-                    <h1 style={{ fontSize: '4rem', color: 'white', marginTop: '5rem', textAlign: 'center' }}>My Work</h1>
-                    <Container style={{ marginTop: '0' }} className="content-container">
+                <h1 style={{ fontSize: '4rem', color: 'white', marginTop: '5rem', textAlign: 'center' }}>My Work</h1>
+                <Container style={{ margin: '0' }} className="content-container">
 
-                        <Stack direction="horizontal" gap={5} className="justify-content-center">
-                            <Card style={{
-                                maxWidth: '25rem',
-                                height: '25rem',
-                                textAlign: 'center',
-                                backgroundColor: 'rgba(255, 142, 217, 0.28)', // Overlay effect
-                                color: 'white',
-                                border: 'none',
-                            }}>
-                                <Card.Img variant="top" src={image1} href='/' />
-                                <Card.Body>
-                                    <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold' }}>Moving Image</Card.Title>
-                                    <Card.Text style={{ fontSize: '1.1rem' }}>2023</Card.Text>
-                                    <Button variant="light" href='/movingimage'>Moving Image</Button>
-                                </Card.Body>
-                            </Card>
-                            <Card style={{
-                                maxWidth: '25rem',
-                                height: '25rem',
-                                textAlign: 'center',
-                                backgroundColor: 'rgba(255, 142, 217, 0.28)', // Overlay effect
-                                color: 'white',
-                                border: 'none',
-                            }}>
-                                <Card.Img variant="top" src={image2} href='/' />
-                                <Card.Body>
-                                    <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold' }}>Photography</Card.Title>
-                                    <Card.Text style={{ fontSize: '1.1rem' }}>2023</Card.Text>
-                                    <Button variant="light" href='/photography'>Photography</Button>
-                                </Card.Body>
-                            </Card>
-                        </Stack>
-                    </Container>
+                    <Stack style={{ margin: 0 }} direction="horizontal" gap={5} className="justify-content-center">
+                        <Card style={{
+                            margin: 0,
+                            maxWidth: '25rem',
+                            textAlign: 'center',
+                            backgroundColor: 'rgba(255, 142, 217, 0.28)',
+                            color: 'white',
+                            border: 'none',
+                        }}>
+                            <Card.Img variant="top" src={image1} href='/' />
+                            <Card.Body style={{ wordBreak: 'keep-all' }}>
+                                <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold', wordBreak: 'keep-all' }}>
+                                    Moving Image
+                                </Card.Title>
+                                <Card.Text style={{ fontSize: '1.1em' }}>2023</Card.Text>
+                                <Button variant="light" href='/movingimage'>Moving Image</Button>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{
+                            margin: 0,
+                            maxWidth: '25rem',
+                            textAlign: 'center',
+                            backgroundColor: 'rgba(255, 142, 217, 0.28)',
+                            color: 'white',
+                            border: 'none',
+                        }}>
+                            <Card.Img variant="top" src={image2} href='/' />
+                            <Card.Body style={{ wordBreak: 'keep-all' }}>
+                                <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold', wordBreak: 'keep-all' }}>
+                                    Photography
+                                </Card.Title>
+                                <Card.Text style={{ fontSize: '1.1em' }}>2023</Card.Text>
+                                <Button variant="light" href='/photography'>Photography</Button>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
                 </Container>
             </Container>
             <Footer />
