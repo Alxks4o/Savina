@@ -58,9 +58,25 @@ import british16 from '../images/BritishMuseum/photo4.jpg';
 import british17 from '../images/BritishMuseum/photo5.jpg';
 import british18 from '../images/BritishMuseum/photo6.jpg';
 import british19 from '../images/BritishMuseum/photo1.jpg';
+
 import Footer from '../components/footer';
 
+const images = [
+  image1, image2, image3, image4, image5,
+  image6, image7, image8, image9, image10,
+  image11, image12, image13, image14, image15
+]
 
+const photos = [photo1, photo2, photo3, photo4, photo5, photo6];
+
+const coventImages = [covent1, covent2, covent3, covent4];
+
+const britishImages = [
+  british1, british2, british3, british4, british5,
+  british6, british7, british8, british9, british10,
+  british11, british12, british13, british14, british15,
+  british16, british17, british18, british19
+];
 
 
 const Photography = () => {
@@ -73,219 +89,28 @@ const Photography = () => {
           <p style={{ marginTop: '6rem', fontSize: '1.2rem' }}>
             Welcome to my photography section – a visual diary where moments freeze in time. Explore a world of images that speak louder than words, each frame telling a unique story captured through my lens. Join me in this visual journey, one snapshot at a time.
           </p>
+
+
+
           <Container style={{ marginTop: '6rem' }}>
             <p style={{ fontSize: '1.4rem', fontWeight: 'bold', borderTop: '2px solid', paddingTop: '3rem' }}>"Golden Autumn"</p>
             <Row xs={1} sm={2} md={3} lg={4} xl={5} style={{ width: '100%' }}>
-              <Col>
-                <img
-                  src={image1}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image2}
-                  alt="image2"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image3}
-                  alt="image3"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image4}
-                  alt="image4"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image5}
-                  alt="image5"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image6}
-                  alt="image6"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image7}
-                  alt="image7"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image8}
-                  alt="image8"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image9}
-                  alt="image9"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image10}
-                  alt="image10"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image11}
-                  alt="image11"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image12}
-                  alt="image12"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image13}
-                  alt="image13"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image14}
-                  alt="image14"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={image15}
-                  alt="image15"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
+              {images.map((img, index) => (
+                <Col key={index} className="mb-4">
+                  <img
+                    src={img}
+                    alt={`image${index + 1}`}
+                    style={{
+                      width: '100%',
+                      height: '15em',
+                      objectFit: 'cover',
+                      borderRadius: '1rem',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                      marginBottom: '1rem'
+                    }}
+                  />
+                </Col>
+              ))}
             </Row>
             <p style={{ marginTop: '3rem', fontSize: '1.2rem' }}>My "Golden Autumn" photography collection from my visit in Varna, Bulgaria this November 2024. </p>
             <p style={{ marginTop: '1.5rem', fontSize: '1.2rem', borderBottom: '2px solid', paddingBottom: '3rem' }}>This collection portrays what you see in the colourful everyday life in Varna. Mostly being stray cats, people reading on the bus, almost naked trees from which the leaves that have fallen, transform into a golden carpet creating a path which leads to the Opera of Varna for a good end to those ideal Autumn days.</p>
@@ -293,94 +118,27 @@ const Photography = () => {
 
           <Container style={{ marginTop: '4rem' }}>
             <p style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>Autumn 2024</p>
+
             <Row xs={1} sm={2} md={3} lg={4} xl={6} style={{ width: '100%' }}>
-              <Col>
-                <img
-                  src={photo1}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={photo2}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={photo3}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={photo4}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={photo5}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={photo6}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
+              {photos.map((img, index) => (
+                <Col key={index}>
+                  <img
+                    src={img}
+                    alt={`image${index + 1}`}
+                    style={{
+                      width: '100%',
+                      height: '15em',
+                      objectFit: 'cover',
+                      borderRadius: '1rem',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                      marginBottom: '1rem'
+                    }}
+                  />
+                </Col>
+              ))}
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom: '2px solid', paddingBottom: '3rem' }}>A few of my photographs from the pumpkin/autumn season.</p>
           </Container>
+
 
 
           <Container style={{ marginTop: '4rem' }}>
@@ -390,64 +148,23 @@ const Photography = () => {
 
           <Container style={{ marginTop: '4rem' }}>
             <Row xs={1} sm={2} md={3} lg={4} xl={2} style={{ width: '100%' }}>
-              <Col>
-                <img
-                  src={covent1}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={covent2}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={covent3}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={covent4}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
+              {coventImages.map((img, index) => (
+                <Col key={index}>
+                  <img
+                    src={img}
+                    alt={`image${index + 1}`}
+                    style={{
+                      width: '100%',
+                      height: '15em',
+                      objectFit: 'cover',
+                      borderRadius: '1rem',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                      marginBottom: '1rem'
+                    }}
+                  />
+                </Col>
+              ))}
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom: '2px solid', paddingBottom: '3rem' }}>Practising with the Canon M50 mark II</p>
           </Container>
 
 
@@ -458,274 +175,23 @@ const Photography = () => {
 
           <Container style={{ marginTop: '4rem', marginBottom: '15rem' }}>
             <Row xs={1} sm={2} md={3} lg={4} xl={4} style={{ width: '100%' }}>
-              <Col>
-                <img
-                  src={british1}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british2}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british3}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british4}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british5}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british6}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british7}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british8}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british9}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british10}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british11}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british12}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british13}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british14}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british15}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british16}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british17}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british18}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
-              <Col>
-                <img
-                  src={british19}
-                  alt="image1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '1rem',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    marginBottom: '1rem'
-                  }}
-                />
-              </Col>
+              {britishImages.map((img, index) => (
+                <Col key={index}>
+                  <img
+                    src={img}
+                    alt={`image${index + 1}`}
+                    style={{
+                      width: '100%',
+                      height: '250px',
+                      objectFit: 'cover',
+                      borderRadius: '1rem',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                      marginBottom: '1rem'
+                    }}
+                  />
+                </Col>
+              ))}
             </Row>
-            <p style={{ marginTop: '3rem', fontSize: '1.2rem', borderBottom: '2px solid', paddingBottom: '3rem' }}>Practising with the Canon M50 mark II</p>
           </Container>
 
         </Container>
