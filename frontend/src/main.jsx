@@ -12,28 +12,33 @@ import MovingImage from './routes/movingImage';
 import Photography from './routes/photography';
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Index />
+    },
+    {
+      path: '/about',
+      element: <About />
+    },
+    {
+      path: '/work',
+      element: <Work />
+    },
+    {
+      path: '/movingimage',
+      element: <MovingImage />
+    },
+    {
+      path: '/photography',
+      element: <Photography />
+    }
+  ],
   {
-    path: '/',
-    element: <Index />
-  },
-  {
-    path: '/about',
-    element: <About />
-  },
-  {
-    path: '/work',
-    element: <Work />
-  },
-  {
-    path: '/movingimage',
-    element: <MovingImage />
-  },
-  {
-    path: '/photography',
-    element: <Photography />
+    basename: '/Savina'
   }
-]);
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

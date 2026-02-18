@@ -5,11 +5,12 @@ import logo from '../../public/logo.png';
 import instagram from '../images/link_icons/instagram.svg';
 import vimeo from '../images/link_icons/vimeo.svg';
 import linkedin from '../images/link_icons/linkedin.svg';
+import { Link } from 'react-router-dom';
 
 function NavbarComponent() {
   return (
     <Navbar expand="lg" sticky='top' className='navbar-line gradient-background'>
-      <Navbar.Brand style={{ marginLeft: '45px', fontSize: '2rem', fontWeight: 'bold', color: 'black' }} href="/">
+      <Navbar.Brand style={{ marginLeft: '45px', fontSize: '2rem', fontWeight: 'bold', color: 'black' }} as={Link} to='/'>
         <img src={logo} style={{ width: '160px', height: 'auto' }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border: 'solid 2px', marginRight: '3rem' }} />
@@ -22,12 +23,8 @@ function NavbarComponent() {
           </Nav.Item>
         </Nav>
         <Nav className="ms-auto custom-nav" style={{ marginRight: '3rem' }}>
-          <Nav.Item>
-            <Nav.Link href="/about" className="nav-link hover-effect">About</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/work" className="nav-link hover-effect">My Work</Nav.Link>
-          </Nav.Item> 
+          <Nav.Link as={Link} to="/about" className="nav-link hover-effect">About</Nav.Link>
+          <Nav.Link as={Link} to="/work" className="nav-link hover-effect">My Work</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
