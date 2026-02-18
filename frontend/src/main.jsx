@@ -15,28 +15,28 @@ import Photography from './routes/photography';
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '',
       element: <Index />
     },
     {
-      path: '/about',
+      path: 'about',
       element: <About />
     },
     {
-      path: '/work',
+      path: 'work',
       element: <Work />
     },
     {
-      path: '/movingimage',
+      path: 'movingimage',
       element: <MovingImage />
     },
     {
-      path: '/photography',
+      path: 'photography',
       element: <Photography />
     },
     {
       path: '*',
-      element: <Index />   
+      element: <Index />   // fallback for GitHub Pages
     }
   ],
   {
