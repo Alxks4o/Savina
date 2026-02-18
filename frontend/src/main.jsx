@@ -33,6 +33,10 @@ const router = createBrowserRouter(
     {
       path: '/photography',
       element: <Photography />
+    },
+    {
+      path: '*',
+      element: <Index />   
     }
   ],
   {
