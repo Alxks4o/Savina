@@ -82,10 +82,17 @@ const britishImages = [
 const Photography = () => {
   return (
     <>
+      <NavbarComponent />
       <Container>
-        <NavbarComponent />
-        <Container style={{ marginTop: '15rem', textAlign: 'center', width: '80%' }}>
-          <h1 style={{ fontSize: '4rem', color: 'white' }}>Photography</h1>
+        <Container style={{ marginTop: '15rem', textAlign: 'center', alignItems: 'center', width: '80%' }}>
+          <h1
+            style={{
+              fontSize: 'clamp(2rem, 6vw, 4rem)',
+              color: 'white'
+            }}
+          >
+            Photography
+          </h1>
           <p style={{ marginTop: '6rem', fontSize: '1.2rem' }}>
             Welcome to my photography section – a visual diary where moments freeze in time. Explore a world of images that speak louder than words, each frame telling a unique story captured through my lens. Join me in this visual journey, one snapshot at a time.
           </p>

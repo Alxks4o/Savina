@@ -35,8 +35,19 @@ const Homepage = () => {
               }}
             >
               <Card.Body>
-                <Card.Title style={{ fontSize: '4rem' }}>Savina Yonashkova</Card.Title>
-                <Card.Text style={{ fontSize: '1.2rem' }}>
+                <Card.Title
+                  style={{
+                    fontSize: 'clamp(2rem, 6vw, 4rem)',
+                    fontWeight: 'bold',
+                    marginBottom: '1rem'
+                  }}
+                >
+                  Savina Yonashkova
+                </Card.Title>
+                <Card.Text style={{
+                  fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+                  lineHeight: '1.5'
+                }}>
                   I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
                 <Button variant='secondary' style={{ borderRadius: '2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
@@ -68,8 +79,19 @@ const Homepage = () => {
               }}
             >
               <Card.Body>
-                <Card.Title style={{ fontSize: '4rem' }}>Savina Yonashkova</Card.Title>
-                <Card.Text style={{ fontSize: '1.2rem' }}>
+                <Card.Title
+                  style={{
+                    fontSize: 'clamp(2rem, 6vw, 4rem)',
+                    fontWeight: 'bold',
+                    marginBottom: '1rem'
+                  }}
+                >
+                  Savina Yonashkova
+                </Card.Title>
+                <Card.Text style={{
+                  fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+                  lineHeight: '1.5'
+                }}>
                   I'm a passionate creative explorer dedicated to mastering the art of multimedia storytelling and design.
                 </Card.Text>
                 <Button variant='secondary' style={{ borderRadius: '2rem' }} href='/about'>CLICK HERE TO ENTER</Button>
